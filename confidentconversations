@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing - Confident Conversations</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; }
+        .container { max-width: 900px; margin: auto; padding: 20px; }
+        h1 { color: #333; }
+        .pricing-table { display: flex; justify-content: space-around; flex-wrap: wrap; }
+        .plan { border: 2px solid #007BFF; border-radius: 10px; padding: 20px; width: 30%; margin: 10px; background-color: #f9f9f9; }
+        .plan h2 { color: #007BFF; }
+        .plan p { font-size: 16px; }
+        .plan .price { font-size: 24px; font-weight: bold; margin: 10px 0; }
+        .contact { margin-top: 30px; font-size: 18px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Pricing Plans</h1>
+        <p>Choose a plan that suits your learning needs. All lessons are conducted by experienced native English speakers.</p>
+        <div class="pricing-table">
+            <div class="plan">
+                <h2>Single Lesson</h2>
+                <p>Perfect for those who need flexibility and occasional lessons.</p>
+                <p class="price">150 PLN / 60 minutes</p>
+            </div>
+            <div class="plan">
+                <h2>5-Lesson Package</h2>
+                <p>Great for learners who want consistent progress with structured lessons.</p>
+                <p class="price">700 PLN</p>
+            </div>
+            <div class="plan">
+                <h2>10-Lesson Package</h2>
+                <p>Best value! Ideal for dedicated learners committed to improving their English.</p>
+                <p class="price">1300 PLN</p>
+            </div>
+        </div>
+        <p class="contact">For corporate training, group lessons, or custom courses, contact us at <a href="mailto:info@confidentconversations.eu">info@confidentconversations.eu</a></p>
+    </div>
+</body>
+</html>
